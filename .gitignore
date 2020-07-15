@@ -1,0 +1,71 @@
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OSX
+.DS_Store
+
+# buck
+buck-out/
+\.buckd/
+
+# ruby gems
+vendor/
+
+# cocoapods
+Pods/
+
+# vscode settings
+.vscode/
+
+# pre-built js code
+*.jsbundle
+
+# xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# android studio
+build/
+.bundle/
+.idea
+.gradle
+local.properties
+*.iml
+
+# fastlane
+fastlane/README.md
+fastlane/report.xml
+
+# secret files
+android/app/*.keystore
+
+# lingui
+locale/_build
+locale/**/*.js
+
+# coverage and test reports
+coverage/
+
+# fastlane build output
+ios/output
+android/output
+
+# jest
+.jest-cache
